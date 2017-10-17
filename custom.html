@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Frankly Ads Master</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+        *{padding:0;margin:0;box-sizing: border-box;}
+        html, body {width:100%;height:100%;}
+        #frHeader, #frFooter{display:block;width:100%;padding:10px;margin:0 auto;text-align:center;}
+        #frNav{width:100%;height:30px;background:#eee;margin:0 auto;}
+        	#frNavHeader{display:block;width:100%;padding:10px;margin:0 auto;text-align:center;}
+        #frWrap{width:100%;padding:0 10px;}
+        	#frMain, #frAside{display:block;margin:0 0 10px;text-align:center;}
+        	#frMain{float:left;width: calc(100% - 330px);min-height:500px;padding:10px;background:#ccc;}
+        	#frAside{width:300px;float:right;position:relative;}
+        #frFooter{clear:both;}
+        .frAd {position:relative;z-index:0;}
+        .frAd iframe{background:#666;}
+/* 
+		.wnad.nat:after, .wnad.loc:after,  .frAd.nat:after, .frAd.loc:after {display:block;position:absolute;height:20px;width:300px;top:50%;left:50%;margin-top:-10px;margin-left:-150px;color:#fff;text-align: center;font:20px "Arial";z-index:0;}
+		.wnad.nat:after, .frAd.nat:after{content:"UNFILLED NAT";background:#ffab8d;}
+		.wnad.loc:after, .frAd.loc:after{content:"UNFILLED LOC";background:#ff8396;}
+ */
+        .frAd.loc iframe{background:#ff8396  !important;}
+        .frAd.nat iframe{background:#ffab8d !important;}
+
+        .frAd{display:block;margin:0 auto;}
+
+        #frMain  .frAd, #frAside .frAd{margin-bottom:10px;}
+        #frMain .frAd:nth-last-child(1), #frMain .frAd:nth-last-child(2), #frAside .frAd:nth-last-child(1){margin-bottom:0px;}
+        #frAd-oop-01{display:block;clear:both;}
+        .frModule{display:block;width:100%;margin:0 auto 10px;min-height:300px;background:#ddd;position:relative;}
+        @media only screen and (max-width: 728px) {
+        	 #frAside{display:none;}
+    		 #frMain {width:100%;min-height:300px;}	
+		}
+/* 
+		#frAside{ display:block; position: -webkit-sticky; position: sticky; top: 0;  bottom:0;}
+ */
+/* 
+		#frAd-d-right-box-1{ position: -webkit-sticky; position: sticky; top: 0;  bottom:0;}
+ */
+    </style>
+   		<script>
+			 window.FranklyAdsCustomSettings = window.FranklyAdsCustomSettings || {};
+			FranklyAdsCustomSettings = {   
+					gptID: "43459271",
+// 					enableSingleRequest: false,
+// 					collapseEmptyDivs: false,
+// 					contentProvider :  "kake",
+// 					contentClassification :      "test",
+// 					contentClassificationID :   "289038",
+// 					finalTaxonomy:  "/[ID]/[Split]-[ContentProvider]/[ContentClassification]",
+					adRequests: [
+						{
+							viewport: "desktop",
+							placement: "top",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 100,    },
+						},
+						{
+							container: "frAd-d-nav-wide-1",
+							viewport: "desktop",
+							placement: "nav",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "content",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "content",
+							type: "wide",
+							order: 2,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "right",
+							type: "box",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "right",
+							type: "box",
+							order: 2,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "right",
+							type: "box",
+							order: 3,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "desktop",
+							placement: "bottom",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "mobile",
+							placement: "top",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "mobile",
+							placement: "content",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+						{
+							viewport: "mobile",
+							placement: "bottom",
+							type: "wide",
+							order: 1,
+							splits: {   owner: "nat",   nat: 50,    },
+						},
+					]
+			};
+         </script>
+        <script src="FranklyAds.js"></script>
+</head>
+<body>
+        <header id="frHeader">
+               <div class="frAd" id="frAd-d-top-wide-1"></div>
+               <div class="frAd" id="frAd-m-top-wide-1"></div>
+        </header>
+        <nav id="frNav"></nav>
+        <header id="frNavHeader">
+			 <div class="frAd" id="frAd-d-nav-wide-1"></div>
+        </header>
+        <div id="frWrap">
+			<main id="frMain">
+				 <div class="frModule"></div>
+				 <div class="frAd" id="frAd-d-content-wide-1"></div>
+				 <div class="frAd" id="frAd-m-content-wide-1"></div>
+				 <div class="frModule"></div>
+				 <div class="frAd" id="frAd-d-content-wide-2"></div>
+				 <div class="frAd" id="frAd-m-content-wide-2"></div>
+			</main>
+			<aside id="frAside">
+					<div class="frAd" id="frAd-d-right-box-1"></div>
+					<div class="frModule"></div>
+					<div class="frAd" id="frAd-d-right-box-2"></div>
+					<div class="frModule"></div>
+					<div class="frAd" id="frAd-d-right-box-3"></div>
+			</aside>
+		</div>
+        <footer id="frFooter">
+        		<div class="frAd" id="frAd-d-bottom-wide-1"></div>
+        		<div class="frAd" id="frAd-m-bottom-wide-1"></div>
+        </footer>
+</html>
