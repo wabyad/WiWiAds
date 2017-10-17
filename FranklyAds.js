@@ -224,8 +224,8 @@ class FranklyAds {
                         return false;
                 });
     }
-    someExtraMethod(){
-    	console.log("someExtraMethod");
+    someRandomAddition(){
+    	console.log("someRandomAddition");
     }
     timestamp(initiater){
         let lastStamp =  (this.timeline.length > 0) ? this.timeline[this.timeline.length-1].stamp : 0;
