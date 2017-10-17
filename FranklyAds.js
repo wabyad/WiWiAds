@@ -1,4 +1,7 @@
 class FranklyAds {
+	 bMethod1(){
+    	console.log("bMethod1");
+    }
     constructor( ){
         // Any customizable info should go into settings
         this.settings = {
@@ -223,12 +226,6 @@ class FranklyAds {
                         console.log("FranklyAds.gptDownload  ✗");
                         return false;
                 });
-    }
-    someRandomAddition(){
-    	console.log("someRandomAddition");
-    }
-    AnotherExtraMethod(){
-    	console.log("someExtraMethod");
     }
     timestamp(initiater){
         let lastStamp =  (this.timeline.length > 0) ? this.timeline[this.timeline.length-1].stamp : 0;
