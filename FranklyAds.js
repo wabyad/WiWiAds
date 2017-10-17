@@ -224,8 +224,8 @@ class FranklyAds {
                         return false;
                 });
     }
-    someExtraMethod(){
-    	console.log("someExtraMethod");
+    someRandomAddition(){
+    	console.log("someRandomAddition");
     }
     AnotherExtraMethod(){
     	console.log("someExtraMethod");
