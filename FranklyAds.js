@@ -227,6 +227,9 @@ class FranklyAds {
     someExtraMethod(){
     	console.log("someExtraMethod");
     }
+    AnotherExtraMethod(){
+    	console.log("someExtraMethod");
+    }
     timestamp(initiater){
         let lastStamp =  (this.timeline.length > 0) ? this.timeline[this.timeline.length-1].stamp : 0;
         let thisStamp = Date.now();
