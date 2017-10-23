@@ -7,6 +7,10 @@ class FranklyAds {
 	    const bMethod7 = 7;
     	console.log("bMethod7");
     }
+	 bMethod2isNotMethod5(){
+	    cont bMethod2isNotMethod5 = 10;
+    	console.log("bMethod2");
+    }
     constructor( ){
         // Any customizable info should go into settings
         this.settings = {
