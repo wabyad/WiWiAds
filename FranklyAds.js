@@ -16,6 +16,13 @@ class FranklyAds {
 	    const bMethod8 = 8;
     	console.log("bMethod8");
     }
+    bMethod10(){
+	    const bMethod10 = 10;
+	    this.bMethod6();
+	    this.bMethod7();
+	    this.bMethod2isNotMethod5();
+    	console.log("bMethod10");
+    }
     constructor( ){
         // Any customizable info should go into settings
         this.settings = {
