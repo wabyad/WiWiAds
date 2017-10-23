@@ -1,5 +1,10 @@
 class FranklyAds {
-	 bMethod6(){
+	 //release.10.3.v2
+	 bMethod2isNotMethod5(){
+	    cont bMethod2isNotMethod5 = "2to5";
+    	console.log("bMethod2isNotMethod5");
+    }
+     bMethod6(){
 	    const bMethod6 = 6;
     	console.log("bMethod6");
     }
@@ -7,9 +12,9 @@ class FranklyAds {
 	    const bMethod7 = 7;
     	console.log("bMethod7");
     }
-	 bMethod2isNotMethod5(){
-	    cont bMethod2isNotMethod5 = 10;
-    	console.log("bMethod2");
+    bMethod8(){
+	    const bMethod8 = 8;
+    	console.log("bMethod8");
     }
     constructor( ){
         // Any customizable info should go into settings
