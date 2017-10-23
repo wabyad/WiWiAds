@@ -1,6 +1,11 @@
 class FranklyAds {
-	 bMethod2(){
-    	console.log("bMethod2");
+	 bMethod6(){
+	    const bMethod6 = 6;
+    	console.log("bMethod6");
+    }
+     bMethod7(){
+	    const bMethod7 = 7;
+    	console.log("bMethod7");
     }
     constructor( ){
         // Any customizable info should go into settings
