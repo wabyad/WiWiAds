@@ -1,5 +1,6 @@
 class FranklyAds {
-	 bMethod2(){
+	 bMethod2isNotMethod5(){
+	    cont bMethod2isNotMethod5 = 10;
     	console.log("bMethod2");
     }
     constructor( ){
